@@ -6,6 +6,6 @@ on:
 jobs:
     Print_branch_name:
         runs-on: ubuntu-latest
-        steps :
+        steps:
            - name : "Print branch name"
-            run : echo " Branch name is  ${{github.ref.name}}" 
+             run : echo " Branch name " 
