@@ -1,0 +1,11 @@
+name : "Print branch name "
+
+on:
+    push:
+
+jobs:
+    Print_branch_name:
+        runs-on: ubuntu-latest
+        steps:
+           - name : "Print branch name"
+             run : echo " Branch name is  ${{github.ref.name}}" 
